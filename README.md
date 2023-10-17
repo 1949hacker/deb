@@ -2,7 +2,7 @@
 
 # 使用说明
 
-aptdownloader <package name>
+`aptdownloader <package name>`
 
 该命令会下载指定的包及其依赖到当前目录中，多个包名用空格分隔，示例：
 
