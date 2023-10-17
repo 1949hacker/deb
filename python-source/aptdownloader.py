@@ -11,15 +11,18 @@
     https://1949hacker.cn
 """
 
-import subprocess
+import subprocess,sys
 
 if __name__ == "__main__":
-    pgName = input("")
+    pgName = sys.argv
+    pgs = []
+    if len(pgName) > 1:
+        for arg in pgName[1:]:
+            print(arg)
     cmd = ["apt",
            "download",
-           "$(apt-rdepends",
-           "-p",
-           pgName,
+           "$(apt-rdepends\0-p",
+           pgs,
            "|",
            "grep",
            "-v",
