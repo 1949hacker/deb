@@ -18,7 +18,8 @@ if __name__ == "__main__":
     pgs = []
     if len(pgName) > 1:
         for arg in pgName[1:]:
-            print(arg)
+            pgs = [arg]
+    print(pgs)
     # cmd = ["apt",
     #        "download",
     #        "$(apt-rdepends\0-p",
