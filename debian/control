@@ -1,0 +1,10 @@
+Source: aptdownloader
+Section: utils
+Priority: optional
+Maintainer: Vladimir scepter@1949hacker.cn
+Build-Depends: apt-rdepends
+
+Package: aptdownloader
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A tool similar to yumdownloader for downloading specified software packages and their dependencies.
