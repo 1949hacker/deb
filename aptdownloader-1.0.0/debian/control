@@ -2,7 +2,7 @@ Source: aptdownloader
 Section: utils
 Priority: optional
 Maintainer: Vladimir Yang <scepter@1949hacker.cn>
-Build-Depends: debhelper-compat (= 13), apt-rdepends
+Build-Depends: debhelper-compat (= 13)
 Standards-Version: 4.5.1
 Homepage: https://1949hacker.cn
 #Vcs-Browser: https://salsa.debian.org/debian/aptdownloader
