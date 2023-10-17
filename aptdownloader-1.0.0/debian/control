@@ -1,29 +1,29 @@
 Source: aptdownloader
-Section: unknown
+Section: python
 Priority: optional
 Maintainer: Vladimir Yang <scepter@1949hacker.cn>
-Build-Depends: debhelper-compat (= 13), dh-python, python3-setuptools, python3-all
+Build-Depends: debhelper-compat (= 13), dh-python, python3-setuptools, python3-all, apt-rdepends
 Standards-Version: 4.5.1
-Homepage: <insert the upstream URL, if relevant>
+Homepage: https://1949hacker.cn
 #Vcs-Browser: https://salsa.debian.org/debian/aptdownloader
 #Vcs-Git: https://salsa.debian.org/debian/aptdownloader.git
 #Testsuite: autopkgtest-pkg-python
 Rules-Requires-Root: no
 
-Package: python3-aptdownloader
+Package: aptdownloader
 Architecture: all
 Depends: ${python3:Depends}, ${misc:Depends}
-Suggests: python-aptdownloader-doc
-Description: <insert up to 60 chars description> (Python 3)
- <insert long description, indented with spaces>
+Suggests: aptdownloader-doc
+Description: A tool for downloading apt packages and their dependencies. (Python 3)
+ Use 'aptdownloader <package name>' to download the software package and its dependencies to the current directory.
  .
  This package installs the library for Python 3.
 
-Package: python-aptdownloader-doc
+Package: aptdownloader-doc
 Architecture: all
 Section: doc
 Depends: ${sphinxdoc:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description> (common documentation)
- <insert long description, indented with spaces>
+Description: A tool for downloading apt packages and their dependencies. (common documentation)
+ Use 'aptdownloader <package name>' to download the software package and its dependencies to the current directory.
  .
  This is the common documentation package.

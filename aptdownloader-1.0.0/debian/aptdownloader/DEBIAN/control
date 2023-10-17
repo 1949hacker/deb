@@ -1,0 +1,13 @@
+Package: aptdownloader
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Vladimir Yang <scepter@1949hacker.cn>
+Installed-Size: 10
+Suggests: aptdownloader-doc
+Section: python
+Priority: optional
+Homepage: https://1949hacker.cn
+Description: A tool for downloading apt packages and their dependencies. (Python 3)
+ Use 'aptdownloader <package name>' to download the software package and its dependencies to the current directory.
+ .
+ This package installs the library for Python 3.
