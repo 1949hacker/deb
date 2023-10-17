@@ -15,9 +15,16 @@ import subprocess
 
 if __name__ == "__main__":
     pgName = input("")
-    cmd = ["apt", "download", "$(apt-rdepends", "-p", pgName, "|", "grep", \
+    cmd = ["apt",
+           "download",
+           "$(apt-rdepends",
+           "-p",
+           pgName,
+           "|",
+           "grep",
            "-v",
-           "\"^\0", "\")"]
+           "\"^",
+           "\")"]
     aptInstall = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=False)
     output = aptInstall.communicate()[0].decode("utf-8")
     print(output)
