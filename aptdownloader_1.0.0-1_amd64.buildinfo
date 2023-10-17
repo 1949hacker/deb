@@ -4,14 +4,14 @@ Binary: aptdownloader
 Architecture: amd64
 Version: 1.0.0-1
 Checksums-Md5:
- 59d523d51421443955aca675d25046d4 5250648 aptdownloader_1.0.0-1_amd64.deb
+ 83340312c23a4ae43f12171b980e0299 5250696 aptdownloader_1.0.0-1_amd64.deb
 Checksums-Sha1:
- 8d5688c76e7217c1bb1a3dc5dde9e50ccd8e0da7 5250648 aptdownloader_1.0.0-1_amd64.deb
+ 69dd6d9c36f7e1c54fd852e343f15908bc7dab99 5250696 aptdownloader_1.0.0-1_amd64.deb
 Checksums-Sha256:
- 0af0374f6590608839b37698075c494f8a3fd6905829b95d508319b77baf4d6c 5250648 aptdownloader_1.0.0-1_amd64.deb
+ 079b2f73aadf24ed5420c6e443aff57d33fde345df0713ad4a6691878ef8b2fb 5250696 aptdownloader_1.0.0-1_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Tue, 17 Oct 2023 15:39:58 +0800
+Build-Date: Tue, 17 Oct 2023 15:51:23 +0800
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries

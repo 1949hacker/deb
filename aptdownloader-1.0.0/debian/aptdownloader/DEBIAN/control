@@ -9,3 +9,5 @@ Priority: optional
 Homepage: https://1949hacker.cn
 Description: A tool for downloading apt packages and their dependencies.
  Use 'aptdownloader <package name>' to download the software package and its dependencies to the current directory.
+ example:
+    aptdownloader docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
