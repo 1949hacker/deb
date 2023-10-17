@@ -1,6 +1,6 @@
 # User Guide
 
-aptdownloader <package name>
+`aptdownloader <package name>`
 
 This command downloads the specified package and its dependencies to the current directory. Multiple package names should be separated by spaces. For example:
 
