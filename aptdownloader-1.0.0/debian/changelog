@@ -2,4 +2,4 @@ aptdownloader (1.0.0-1) unstable; urgency=medium
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
- -- Vladimir Yang <scepter@1949hacker.cn>  Tue, 17 Oct 2023 14:01:32 +0800
+ -- Vladimir Yang <scepter@1949hacker.cn>  Tue, 17 Oct 2023 14:42:34 +0800
