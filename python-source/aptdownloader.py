@@ -14,13 +14,15 @@
 import subprocess,sys
 
 if __name__ == "__main__":
-    pgName = sys.argv
-    pgs = []
-    if len(pgName) > 1:
+    pgName = sys.argv # 传参获取包名
+    pgs = [] # 将包名存储为数组
+    if len(pgName) > 1: # 忽略aptdownloader本身
         for arg in pgName[1:]:
-            pgs += [arg]
-    pgs_str = ' '.join(pgs)
-    cmd = f'apt download $(apt-rdepends -p {pgs_str} |grep -v "^ ")'
+            pgs += [arg] # 将包名依次存储
+    pgs_str = ' '.join(pgs) # 使用空格分隔，将包名整理
+    cmd = f'apt download $(apt-rdepends -p {pgs_str} |grep -v "^ ")' #
+    # 调用apt-rdepends查询依赖并将结果传输给apt download命令
     aptInstall = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
-    output = aptInstall.communicate()[0].decode("utf-8")
-    print(output)
+    # 执行cmd
+    output = aptInstall.communicate()[0].decode("utf-8") # 使用communicate获取子进程的标准输出并格式化为utf-8编码
+    print(output) # 打印执行结果
