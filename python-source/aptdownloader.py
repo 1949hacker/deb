@@ -19,15 +19,15 @@ if __name__ == "__main__":
     if len(pgName) > 1:
         for arg in pgName[1:]:
             print(arg)
-    cmd = ["apt",
-           "download",
-           "$(apt-rdepends\0-p",
-           pgs,
-           "|",
-           "grep",
-           "-v",
-           "\"^",
-           "\")"]
-    aptInstall = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=False)
-    output = aptInstall.communicate()[0].decode("utf-8")
-    print(output)
+    # cmd = ["apt",
+    #        "download",
+    #        "$(apt-rdepends\0-p",
+    #        pgs,
+    #        "|",
+    #        "grep",
+    #        "-v",
+    #        "\"^",
+    #        "\")"]
+    # aptInstall = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=False)
+    # output = aptInstall.communicate()[0].decode("utf-8")
+    # print(output)
