@@ -1,6 +1,15 @@
 [English](./README_en.md)
 
+[官网地址:https://1949hacker.cn/](https://1949hacker.cn/)
+
 # 使用说明
+
+建议通过添加源的方式安装`aptdownloader`
+
+```shell
+echo "deb [trusted=yes] http://apt.1949hacker.cn:20888 ./" >> /etc/apt/sources.list
+apt update
+```
 
 `aptdownloader <package name>`
 

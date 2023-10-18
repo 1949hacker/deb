@@ -1,4 +1,13 @@
+[HomePage:https://1949hacker.cn/](https://1949hacker.cn/)
+
 # User Guide
+
+Recommend installing `aptdownloader` via the APT source.
+
+```shell
+echo "deb [trusted=yes] http://apt.1949hacker.cn:20888 ./" >> /etc/apt/sources.list
+apt update
+```
 
 `aptdownloader <package name>`
 
