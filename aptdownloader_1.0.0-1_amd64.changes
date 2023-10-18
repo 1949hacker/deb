@@ -15,11 +15,11 @@ Changes:
  .
    * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Checksums-Sha1:
- cbe29edb16b85bf1c9ef7c5eda34c8c5bbccfc36 4920 aptdownloader_1.0.0-1_amd64.buildinfo
+ 985d681395f11dd79631992a97912fca5df9ee1a 4920 aptdownloader_1.0.0-1_amd64.buildinfo
  69dd6d9c36f7e1c54fd852e343f15908bc7dab99 5250696 aptdownloader_1.0.0-1_amd64.deb
 Checksums-Sha256:
- e91f6365b25fbfbff54b94844cb7a2a6e02ba6ef2117eb9025cbd94eb23ae687 4920 aptdownloader_1.0.0-1_amd64.buildinfo
+ 4f8556cbb2eb30c2e2ad5eedba071cc18a5ab38d1c5a344ace4a3f52409d8457 4920 aptdownloader_1.0.0-1_amd64.buildinfo
  079b2f73aadf24ed5420c6e443aff57d33fde345df0713ad4a6691878ef8b2fb 5250696 aptdownloader_1.0.0-1_amd64.deb
 Files:
- 55aa4a0b0e0a0ed045ab23f4d463097f 4920 utils optional aptdownloader_1.0.0-1_amd64.buildinfo
+ a8c36fdfc05c7d5b79c8b6242379f1aa 4920 utils optional aptdownloader_1.0.0-1_amd64.buildinfo
  83340312c23a4ae43f12171b980e0299 5250696 utils optional aptdownloader_1.0.0-1_amd64.deb
