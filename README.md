@@ -1,13 +1,14 @@
 [English](./README_en.md)
 
-[官网地址:https://1949hacker.cn/](https://1949hacker.cn/)
+[官网地址:https://hackerbs.com/](https://hackerbs.com/)
 
 # 使用说明
 
 建议通过添加源的方式安装`aptdownloader`
 
 ```shell
-echo "deb [trusted=yes] http://apt.1949hacker.cn:20888 ./" >> /etc/apt/sources.list
+wget -O - https://apt.ygeit.cn/public.key | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/ygeit.gpg
+echo "deb [signed-by=/etc/apt/trusted.gpg.d/ygeit.gpg] https://apt.ygeit.cn bookworm main" >> /etc/apt/sources.list
 apt update
 ```
 

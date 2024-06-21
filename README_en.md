@@ -1,11 +1,12 @@
-[HomePage:https://1949hacker.cn/](https://1949hacker.cn/)
+[HomePage:https://hackerbs.com/](https://hackerbs.com/)
 
 # User Guide
 
 Recommend installing `aptdownloader` via the APT source.
 
 ```shell
-echo "deb [trusted=yes] http://apt.1949hacker.cn:20888 ./" >> /etc/apt/sources.list
+wget -O - https://apt.ygeit.cn/public.key | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/ygeit.gpg
+echo "deb [signed-by=/etc/apt/trusted.gpg.d/ygeit.gpg] https://apt.ygeit.cn bookworm main" >> /etc/apt/sources.list
 apt update
 ```
 
