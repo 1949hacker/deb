@@ -7,8 +7,8 @@
     aptdownloader <包名>
 作者：
     Vladimir Yang
-    scepter@1949hacker.cn
-    https://1949hacker.cn
+    0@hackerbs.com
+    https://hackerbs.com
 """
 
 import subprocess,sys

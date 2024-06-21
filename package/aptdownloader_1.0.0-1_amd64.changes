@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Fri, 21 Jun 2024 14:37:57 +0800
+Source: aptdownloader
+Binary: aptdownloader
+Architecture: amd64
+Version: 1.0.0-1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Vladimir Yang <0@hackerbs.com>
+Changed-By: root <root@localhost.localdomain>
+Description:
+ aptdownloader - A tool for downloading apt packages and their dependencies.
+Changes:
+ aptdownloader (1.0.0-1) UNRELEASED; urgency=medium
+ .
+   * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ da57f4009920c3c3ee09306d9165d9a7cbbcd599 4848 aptdownloader_1.0.0-1_amd64.buildinfo
+ 6703906f7d82715e470141df0f8411b968949d51 6957872 aptdownloader_1.0.0-1_amd64.deb
+Checksums-Sha256:
+ d5fbe01930aafed8c9b47d225f855d5031a842662dce4cd0e0e1d9c0e4bf3de7 4848 aptdownloader_1.0.0-1_amd64.buildinfo
+ b3cbef3f02cd16e93572a0dec1344a65dc87a817fc4080cbb738287e3bfa4677 6957872 aptdownloader_1.0.0-1_amd64.deb
+Files:
+ 81e92d5657edd3cb5535296ccf1c5d0b 4848 utils optional aptdownloader_1.0.0-1_amd64.buildinfo
+ dc81507da1d8795101564389f2a955b5 6957872 utils optional aptdownloader_1.0.0-1_amd64.deb

@@ -1,0 +1,5 @@
+aptdownloader (1.0.0-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- root <root@localhost.localdomain>  Fri, 21 Jun 2024 14:37:57 +0800
