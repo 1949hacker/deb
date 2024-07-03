@@ -20,7 +20,7 @@ if __name__ == "__main__":
         for arg in pgName[1:]:
             pgs += [arg] # 将包名依次存储
     pgs_str = ' '.join(pgs) # 使用空格分隔，将包名整理
-    cmd = f'apt download $(apt-rdepends -p {pgs_str} |grep -v "^ ")' #
+    cmd = f'apt download $(apt-rdepends -p {pgs_str} |grep -v "^ " | sed "s/debconf-2.0/debconf/g")'
     # 调用apt-rdepends查询依赖并将结果传输给apt download命令
     aptInstall = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
     # 执行cmd
